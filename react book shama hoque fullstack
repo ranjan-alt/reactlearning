@@ -1,0 +1,10 @@
+readme file
+for starting the project configure webpack and babel 
+
+Babel
+We mentioned at the beginning of the chapter that all the code in the book would be
+using ES6 JavaScript. However, most browsers in use today do not fully support ES6.
+Babel is a JavaScript transpiler. Babel turns ES6 code into ES5 code. We call this
+process transpiling. So we can enjoy the features of ES6 today yet ensure our code
+still runs in browsers that only support ES5.
+
