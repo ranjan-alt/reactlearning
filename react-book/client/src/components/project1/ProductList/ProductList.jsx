@@ -1,6 +1,6 @@
 import React from 'react';
 import Product from '../Products/Products';
-import products from '../../seed';
+import products from '../../../seed';
 
 class ProductList extends React.Component {
 

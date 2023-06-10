@@ -1,12 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import ProductList from './components/ProductList/ProductList';
-
+// import ProductList from './components/project1/ProductList/ProductList';
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <ProductList/>
+        {/* <ProductList/> */}
       </header>
     </div>
   );
