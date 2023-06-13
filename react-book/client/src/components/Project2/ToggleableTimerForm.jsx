@@ -33,7 +33,6 @@ class ToggleableTimerForm extends React.Component {
                     <button className='ui basic button icon' onClick={this.handleFormOpen}>
                         <i className='plus icon' /> plus
                     </button>
-                    <p>test</p>
                 </div>
             );
         }

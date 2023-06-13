@@ -21,7 +21,8 @@ class TimersDashboard extends React.Component {
                 project: 'Gym Chores',
                 id: uuidv4(),
                 elapsed: 5456099,
-                runningSince: Date.now(),
+                runningSince: null,
+                editFormOpen: true
             },
             {
                 title: 'Bake squash',
@@ -29,6 +30,7 @@ class TimersDashboard extends React.Component {
                 id: uuidv4(),
                 elapsed: 1273998,
                 runningSince: null,
+                editFormOpen: true
             },
         ],
     };
@@ -41,7 +43,7 @@ class TimersDashboard extends React.Component {
     createTimer = (timer) => {
         const t = helpers.newTimer(timer)
         this.setState({
-            timer: this.state.timers.concat(t)
+            timers: this.state.timers.concat(t)
         })
     }
     render() {
